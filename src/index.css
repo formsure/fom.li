@@ -1,0 +1,63 @@
+/* ./src/index.css */
+
+@tailwind base;
+
+@layer base {
+    svg {
+        @apply inline-block;
+    }
+
+    .fsp {
+        @apply my-8 rounded-sm;
+    }
+    .modal .fsp {
+        @apply my-2 rounded-sm;
+    }
+
+    .flex-cm {
+        @apply flex items-center justify-center;
+    }
+
+    .a-link {
+        @apply text-green-600;
+    }
+
+    .min-h-40 {
+        min-height: 40px;
+    }
+
+    .field-actions {
+        @apply cursor-pointer text-gray-400 hover:text-gray-800 p-1;
+    }
+    .parent:hover .parent-hover\:bg-green-600 {
+        @apply bg-green-600 text-white;
+    }
+
+    .fs-sv {
+        @apply border-gray-50 border p-4 rounded-sm bg-gray-50;
+    }
+    .fs-sv b {
+        @apply mb-4 inline-block;
+    }
+    .fs-closex {
+        @apply absolute top-0 right-0 text-red-600 cursor-pointer;
+    }
+    .no-sb::-webkit-scrollbar {
+        @apply hidden bg-transparent h-0 w-0;
+    }
+    .no-sb {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    b {
+        @apply tracking-wide;
+    }
+}
+
+@tailwind components;
+@tailwind utilities;

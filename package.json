@@ -1,0 +1,63 @@
+{
+    "name": "formsure",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.21.1",
+        "baseui": "^9.107.0",
+        "eslint-config-react-app": "^6.0.0",
+        "moize": "^5.4.7",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-helmet-async": "^1.0.7",
+        "react-hook-form": "^6.14.1",
+        "react-hook-form-input": "^1.1.10",
+        "react-icons": "^4.1.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "4.0.1",
+        "styletron-engine-atomic": "^1.4.6",
+        "styletron-react": "^5.2.7",
+        "tailwindcss": "npm:@tailwindcss/postcss7-compat",
+        "web-vitals": "^1.1.0"
+    },
+    "scripts": {
+        "start": "craco start",
+        "build": "craco build",
+        "test": "craco test",
+        "eject": "react-scripts eject",
+        "version": "",
+        "postversion": "git push && git push --tags"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app"
+        ],
+        "rules": {
+            "jsx-a11y/anchor-is-valid": "off"
+        }
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@craco/craco": "^6.0.0",
+        "@testing-library/jest-dom": "^5.11.9",
+        "@testing-library/react": "^11.2.3",
+        "@testing-library/user-event": "^12.6.0",
+        "autoprefixer": "^9.0.0",
+        "craco-swc": "^0.1.0",
+        "postcss": "^8"
+    },
+    "resolutions": {
+        "react-scripts/eslint-webpack-plugin": "2.4.1"
+    }
+}
