@@ -3,10 +3,12 @@
     "version": "0.0.1",
     "private": true,
     "dependencies": {
+        "autoprefixer": "^9",
         "axios": "^0.21.1",
         "baseui": "^9.107.0",
         "eslint-config-react-app": "^6.0.0",
         "moize": "^5.4.7",
+        "postcss": "^7",
         "react": "^17.0.1",
         "react-dom": "^17.0.1",
         "react-helmet-async": "^1.0.7",
@@ -53,9 +55,7 @@
         "@testing-library/jest-dom": "^5.11.9",
         "@testing-library/react": "^11.2.3",
         "@testing-library/user-event": "^12.6.0",
-        "autoprefixer": "^9.0.0",
-        "craco-swc": "^0.1.0",
-        "postcss": "^8"
+        "craco-swc": "^0.1.0"
     },
     "resolutions": {
         "react-scripts/eslint-webpack-plugin": "2.4.1"
