@@ -8,7 +8,8 @@ const NotFoundSection = () => {
             <img
                 src="/assets/img/404.svg"
                 alt="Formsure"
-                className="mx-auto h-80"
+                className="mx-auto"
+                width="320px"
             />
             <div className="flex items-center justify-center flex-col pt-10 mb-5 text-gray-500 text-sm">
                 <a href="https://formsure.co">
@@ -16,6 +17,8 @@ const NotFoundSection = () => {
                         src="/assets/img/logo.svg"
                         alt="Formsure Logo"
                         className="h-6"
+                        height="24px"
+                        width="124px"
                     />
                 </a>
                 <p className="mt-4">Powered by Formsure</p>
@@ -34,6 +37,8 @@ const NotFoundSection = () => {
                     class="text-gray-600 hover:text-gray-800 mt-3">
                     <img
                         alt="Formsure uptime"
+                        height="20px"
+                        width="92px"
                         src="https://img.shields.io/endpoint?style=flat-square&amp;url=https://raw.githubusercontent.com/formsure/status/master/api/formsure-dashboard/uptime.json"
                     />
                 </a>
